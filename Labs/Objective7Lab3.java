@@ -24,6 +24,8 @@ public class Objective7Lab3 {
           System.out.println(" You must choose 1, 2, or 3");
         }
       }
+      scanner.close();
+
   }
   public static void printMenu() {
     System.out.println("___Menu___");
@@ -31,6 +33,6 @@ public class Objective7Lab3 {
     System.out.println("2. List my favorite foods");
     System.out.println("3. Exit");
     System.out.println("Make a selection");
-    
+
   }
 }
